@@ -1,40 +1,50 @@
-Glass Globe - Multi-Tool Dashboard
-📌 Project Overview
+# 🌐 Glass Globe
 
-Glass Globe is a modern, secure, and responsive multi-tool dashboard that brings together a variety of everyday utilities into a single application. Users can access tools such as Notes, Weather, Calculator, Calendar, To-Do List, and other productivity apps from one centralized dashboard.
+Glass Globe is a modern **multi-tool productivity dashboard** built with **React, Firebase, and Tailwind CSS**. It provides a single platform for accessing everyday tools with secure Google authentication and cloud storage.
 
-The application uses Firebase Authentication for secure Google Sign-In and Cloud Firestore for storing user-specific data, ensuring that each user's information remains private and accessible only to them.
+## ✨ Features
 
-✨ Features
-🔐 Secure Google Authentication
-👤 User-specific dashboard
-📝 Private Notes with cloud storage
-☁️ Weather information
-🧮 Calculator
-📅 Calendar
-✅ To-Do List
-📌 Responsive Glassmorphism UI
-🔒 Firebase Firestore Security Rules
-🌙 Modern Dark Theme
-📱 Mobile Friendly
-⚡ Fast and Lightweight
+- 🔐 Google Sign-In (Firebase Authentication)
+- 📝 Private Notes
+- ☁️ Weather
+- 📅 Calendar
+- ✅ To-Do List
+- 🧮 Calculator
+- 🎨 Glassmorphism UI
+- 📱 Responsive Design
 
-📂 Project Structure
-Glass-Globe/
-│
-├── src/
+## 🛠️ Tech Stack
+
+- React + Vite
+- Tailwind CSS
+- Firebase Authentication
+- Cloud Firestore
+- OpenWeather API / Open-Meteo
+
+## 📁 Project Structure
+```text
+glass-globe/
+│── public/
+│── src/
+│   ├── assets/
 │   ├── components/
 │   ├── pages/
-│   ├── hooks/
 │   ├── services/
 │   ├── firebase/
-│   ├── context/
-│   ├── assets/
-│   └── App.jsx
-│
-├── public/
+│   ├── hooks/
+│   ├── utils/
+│   ├── App.jsx
+│   └── main.jsx
 │
 ├── package.json
 ├── vite.config.js
 ├── tailwind.config.js
 └── README.md
+```
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+⭐ If you found this project helpful, consider giving it a **Star** on GitHub!
